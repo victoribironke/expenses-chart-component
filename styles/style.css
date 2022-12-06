@@ -1,0 +1,222 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans&display=swap");
+
+body {
+  width: 100%;
+  height: 100vh;
+  padding: 50px 0;
+  margin: 70px 0 0 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background: hsl(27, 66%, 92%);
+}
+
+.top {
+  background: hsl(10, 79%, 65%);
+  width: 350px;
+  box-sizing: border-box;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px 20px;
+  border-radius: 10px;
+}
+
+p {
+  font-family: "DM Sans", sans-serif;
+  margin: 0;
+  color: white;
+}
+
+.a p:nth-child(1) {
+  font-size: 14px;
+  margin-bottom: 5px;
+}
+
+.a p:nth-child(2) {
+  font-size: 24px;
+  margin-top: 5px;
+  font-weight: 700;
+}
+
+.b {
+  width: 55px;
+  height: 35px;
+  display: flex;
+  align-items: center;
+  position: relative;
+  justify-content: center;
+}
+
+.b div {
+  position: absolute;
+  border-radius: 50%;
+}
+
+.b div:nth-child(1) {
+  z-index: 1;
+  left: 0;
+  width: 33px;
+  height: 33px;
+  border: 2px solid white;
+}
+
+.b div:nth-child(2) {
+  width: 35px;
+  height: 35px;
+  background: hsl(25, 47%, 15%);
+  right: 0;
+}
+
+.bottom {
+  width: 350px;
+  height: auto;
+  background: hsl(33, 100%, 98%);
+  margin: 15px 0;
+  border-radius: 10px;
+  box-sizing: border-box;
+  padding: 15px 20px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.c {
+  color: hsl(25, 47%, 15%);
+  font-size: 23px;
+  font-weight: 700;
+  align-self: flex-start;
+  margin-bottom: 20px;
+}
+
+.bars {
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.d {
+  display: flex;
+  justify-content: center;
+  flex-direction: column-reverse;
+  align-items: center;
+  align-self: flex-end;
+}
+
+.d div {
+  width: 30px;
+  border-radius: 3px;
+  cursor: pointer;
+  height: 120px;
+  background: hsl(10, 79%, 65%);
+}
+
+.hide {
+  opacity: 0;
+}
+
+#am {
+  width: 30px;
+  font-size: 10px;
+  color: white;
+  margin-bottom: 5px;
+  font-family: "DM Sans", sans-serif;
+  padding: 5px;
+  height: auto;
+  background: hsl(25, 47%, 15%);
+}
+
+.d div:hover {
+  background: hsl(10, 79%, 70%);
+}
+
+#w:hover {
+  background: hsl(186, 34%, 65%);
+}
+
+.d p {
+  color: hsl(28, 10%, 53%);
+  font-size: 12px;
+  margin-top: 10px;
+}
+
+#w {
+  background: hsl(186, 34%, 60%);
+}
+
+#th {
+  height: 75px;
+}
+
+#m {
+  height: 40px;
+}
+
+#t {
+  height: 85px;
+}
+
+#f {
+  height: 55px;
+}
+
+#su {
+  height: 60px;
+}
+
+#sa {
+  height: 100px;
+}
+
+hr {
+  width: 100%;
+  border: 0.1px solid hsl(28, 10%, 83%);
+  margin: 20px 0;
+}
+
+.totals {
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.g p,
+.h p {
+  color: hsl(25, 47%, 15%);
+}
+
+.g p:nth-child(1),
+.h :nth-child(2) {
+  color: hsl(28, 10%, 53%);
+}
+
+.g p:nth-child(1) {
+  font-size: 13px;
+  margin-bottom: 5px;
+}
+
+.g p:nth-child(2) {
+  font-size: 25px;
+  font-weight: 700;
+}
+
+.h {
+  align-self: flex-end;
+}
+
+.h p:nth-child(1) {
+  font-size: 13px;
+  text-align: right;
+  font-weight: 700;
+}
+
+.h p:nth-child(2) {
+  font-size: 13px;
+}
